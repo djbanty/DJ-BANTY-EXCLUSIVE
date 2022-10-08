@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    color: brown;
+    text-decoration: none;
+    font-size: larger;
+    background-color: rgb(20, 19, 19);
+    margin: 0;
+}
+
+.name-in {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.01rem;
+}
+
+#contacts-in::before {
+    text-decoration: none;
+    color: black;
+}
+
+
