@@ -5,10 +5,74 @@
 <link rel="stylesheet" href="./style.css">
 
 <head>
-    
+    <meta charset="utf-8">
+    <script src=
+"https://kit.fontawesome.com/457a315592.js" 
+        crossorigin="anonymous">
+    </script>
     
     <link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ">
 </head>
+<style>
+    .container {
+        background-image: linear-gradient(95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .link {
+        height: 50px;
+        width: 50px;
+        background-color: #caf7e3;
+        border-radius: 35px;
+        text-align: center;
+        margin: 7px;
+        line-height: 80px;
+    }
+
+    a i {
+        margin-top: 10;
+       
+        transition: all 0.3s linear;
+        text-decoration: none;
+    }
+.youtube::before{
+    color: black;
+
+}
+.facebook::before{
+    color: black;
+}
+    a:hover i {
+        transform: scale(1.4);
+    }
+
+    .youtube:hover {
+        color: red;
+    }
+
+    .facebook:hover {
+        color: blue;
+    }
+
+    .instagram:hover {
+        color: #e11d74;
+    }
+
+    .twitter:hover {
+        color: #00adb5;
+    }
+
+    .github:hover {
+        color: black;
+    }
+
+    .linkedin:hover {
+        color: #04009a;
+    }
+</style>
 
 
 <body>
@@ -26,24 +90,44 @@
         <hr class="name-in " color="aqua ">
 
     </div>
-    <div class=>
+    <div class="container">
         
-            <br>
-            <center>
-                <a href="https://www.facebook.com/profile.php?id=100063573200988 " class="fa fa-facebook fa-2x " aria-hidden="true " id="contacts-in ">&nbsp;</a>
-                <a href="https://www.instagram.com/djbantyexclusive/ " class="fa fa-instagram fa-2x " id="contacts-in " aria-hidden="true ">&nbsp;</a>
-                <a href="https://www.youtube.com/c/djbantyexclusive " class="fa fa-youtube-play fa-2x " id="contacts-in " aria-hidden="true ">&nbsp;</a>
-            </center>
-            <br>
-            <hr class="name-in " color="aqua ">
-       
+        </a>
+        <a class="link instagram" href="https://www.instagram.com/djbantyexclusive/">
+            <i class="fab fa-2x fa-instagram" style="text-decoration: none; color: #000;"></i>
+        </a>
+        <a class="link youtube" href="https://www.youtube.com/c/DjBantyExclusive">
+            <i class="fab fa-2x fa-youtube"style="text-decoration: none; color: #000;"></i>
+        </a>
+        <a class="link facebook" href="">
+            <i class="fab fa-2x fa-facebook-f"style="text-decoration: none; color: #000;"></i>
+        </a>
+    </div>
+    <div class="topreleases">
+        TOP RELEASES 
     </div>
     <div class="marquee-images ">
-        <br>
-        <br>
-        <marquee behavior=" " direction="left ">marquee-images</marquee>
-        <br>
-        <br>
+        <!-- MARQUEE IMAGES HERE -->
+        <hr class="name-in " color="aqua ">
+        
+        
+        <marquee behavior="scroll" direction="left" class="m" >
+            
+            <a href="https://www.youtube.com/watch?v=XDi1vxBBl80"><img src="./THUMBS/mohini.jpg" alt="mohini" class="mi"></a>
+            &nbsp; &nbsp; &nbsp;
+           <a href="https://www.youtube.com/watch?v=RaqP852_ItM">
+            <img src="./THUMBS/naliya bottle khol.jpg" alt=""class="mi">
+        </a>
+            &nbsp; &nbsp; &nbsp;
+             <a href="https://www.youtube.com/watch?v=VtfNoxsRJcQ"><img src="./THUMBS/rasia.jpg" alt=""class="mi"></a>
+            &nbsp; &nbsp; &nbsp;
+            <a href="https://www.youtube.com/watch?v=VyFhjRRIaSg">
+            <img src="./THUMBS/sambalpuri gudiya.jpg" alt=""class="mi">
+        </a>
+           
+        </marquee>
+        
+        <hr class="name-in " color="aqua ">
 
 
     </div>
