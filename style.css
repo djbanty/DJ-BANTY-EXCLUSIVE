@@ -8,12 +8,11 @@ body {
   );
 }
 
-.name1{
-  
+.name1 {
   background-color: rgb(20, 19, 19);
   margin: 0;
 }
-.name{
+.name {
   color: brown;
   text-decoration: none;
   font-size: larger;
@@ -76,118 +75,242 @@ body {
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.most-famous{
-    background-color: rgb(20, 19, 19);
+.most-famous {
+  background-color: rgb(20, 19, 19);
   font-size: 20px;
   color: brown;
   text-align: center;
   font-weight: bold;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-  .li{
-    display: flex;
-      margin-top: 15px;
-      
-      height: 100px;
-      width: 180px;
-      text-decoration: none !important;
-    border: 2px solid ;
-    border-color: crimson;
-    -webkit-transform: scale(1);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.li {
+  display: flex;
+  margin-top: 15px;
+  height: fit-content;
+  height: 100px;
+  width: 180px;
+  text-decoration: none !important;
+  border: 2px solid;
+  border-color: crimson;
+  -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-  }
-  .li:hover{
-    -webkit-transform: scale(1.3);
+}
+.li:hover {
+  -webkit-transform: scale(1.3);
   transform: scale(1.1);
+}
+
+.latest {
+  text-decoration: none;
+}
+.tr p {
+  text-decoration-line: underline !important;
+  text-align: center !important;
+  text-decoration-color: rgb(29, 3, 126);
+  color: rgb(4, 91, 163);
+}
+.fast-links {
+  background-color: rgb(20, 19, 19);
+  font-size: 20px;
+  color: brown;
+  text-align: center;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.categories a {
+  font-family: futura;
+
+  width: 100%;
+
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-block-end: 10px;
+  text-align: left;
+
+  color: #313131;
+  font: size 22px;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  -webkit-animation: colorchange 05s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: blue;
   }
-  
-  
+
+  10% {
+    color: #ab27e4;
+  }
+
+  20% {
+    color: #bc1a5d;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  60% {
+    color: rgb(0, 116, 96);
+  }
+
+  70% {
+    color: #211fb3;
+  }
+
+  90% {
+    color: #0d5788;
+  }
+
+  100% {
+    color: rgb(243, 46, 79);
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .fl{
+    display: none;
+  }
   .latest{
+    display: contents;
+  }
+  body {
+    font-size: small;
+  }
+  .tr p {
+    font-size: small;
+  }
+  .mi {
+    width: 150px;
+    height: 100px;
+  }
+  .mi:hover {
+    -webkit-transform: scale(1.19);
+    transform: scale(1.19);
+  }
+  .topreleases {
+    font-size: 15px;
+    font-weight: 900;
+    background-image: linear-gradient(#3494e6, #ec6ead);
+    color: rgb(255, 255, 255);
+  }
+  .most-famous {
+    font-size: 15px;
+    font-weight: 900;
+    background-image: linear-gradient(#3494e6, #ec6ead);
+    color: rgb(255, 255, 255);
+    stroke: 2px black;
+  }
+  .name1 {
+    background-image: linear-gradient(#3494e6, #ec6ead);
+    color: rgb(255, 255, 255);
     text-decoration: none;
   }
-  .tr p{
-    text-decoration-line: underline !important;
-    text-align: center !important;
-    text-decoration-color:rgb(29, 3, 126) ;
-    color: rgb(4, 91, 163);
+  .name {
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+    text-decoration: none;
   }
-  
-  @media screen and (max-width:600px) {
-    body{
-      font-size: small;
-    }
-      .tr p{
-        font-size: small;
-      }
-      .mi{
-        width: 150px;
-        height: 100px;
-      }
-      .mi:hover {
-        -webkit-transform: scale(1.19);
-        transform: scale(1.19);
-      }
-      .topreleases{
-        font-size: 15px;
-        font-weight: 900;
-        background-image: linear-gradient(
-          #3494E6 , #EC6EAD
-        );
-        color: rgb(255, 255, 255);
-      }
-      .most-famous{
-        font-size: 15px;
-        font-weight: 900;
-        background-image: linear-gradient(
-          #3494E6 , #EC6EAD
-        );
-        color: rgb(255, 255, 255);
-        stroke: 2px black;
-        
-      }
-      .name1 {
-        
-        background-image: linear-gradient(
-          #3494E6 , #EC6EAD
-        );
-        color: rgb(255, 255, 255);
-        text-decoration: none; 
-      }
-      .name{
-        font-size: 20px;
-        font-weight: 900;
-        color: #fff;
-        text-decoration: none;
-      }
-      .icons {
-        height: 24px;
-        width: 24px;
+  .icons {
+    height: 24px;
+    width: 24px;
 
-
-        text-align: center;
-        margin: 5px;
-        margin-top: 0px;
-        line-height: 80px;
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        -webkit-transition: 0.3s ease-in-out;
-        transition: 0.3s ease-in-out;
-    }
-
-    .icons:hover {
-        -webkit-transform: scale(1.19);
-        transform: scale(1.19);
-    }
-
-
-
-    .icons {
-        margin-top: 5;
-
-        transition: all 0.3s linear;
-        text-decoration: none;
-    }
-
+    text-align: center;
+    margin: 5px;
+    margin-top: 0px;
+    line-height: 80px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
+
+  .icons:hover {
+    -webkit-transform: scale(1.19);
+    transform: scale(1.19);
+  }
+
+  .icons {
+    margin-top: 5;
+
+    transition: all 0.3s linear;
+    text-decoration: none;
+  }
+}
+.fl td {
+  padding: 7px 2px;
+  border-bottom: 1px solid #ccc;
+}
+
+.fl a {
+  vertical-align: middle;
+}
+
+.fl div {
+  display: table-cell;
+}
+.fl {
+  border-bottom: 1px solid #ddd;
+}
+
+.fl a {
+  display: block;
+  padding: 8px;
+}
+
+.fl a div div {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.fl a div {
+  vertical-align: middle;
+}
+.fl {
+  -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.fl .div .div .nm:hover {
+  background: #f5f5f5
+}
+
+.fl a {
+  display: block;
+  padding: 8px;
+  line-height: 18px;
+}
+
+.fl a div div {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.fl a div {
+  vertical-align: middle;
+}
+
+.fl a img {
+  margin-right: 10px;
+  vertical-align: middle;
+  border: 1px solid #999;
+  padding: 4px;
+  box-shadow: 0 0 2px #999;
+}
+.fl a .nm {
+  margin-left: 10px;
+  text-decoration: none !important;
+}
+
