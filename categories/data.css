@@ -85,18 +85,7 @@
 		transform: skew(25deg)
 	}
 
-	@media screen and (max-width:400px) {
-		.fl{
-			display: none;
-		}
-
-	}
-	@media screen and (max-width:600px) {
-		.fl{
-			display: none;
-		}
-
-	}
+	
 	@media screen and (max-width:850px) {
 	
 		
