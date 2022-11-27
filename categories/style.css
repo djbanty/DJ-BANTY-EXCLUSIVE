@@ -415,8 +415,9 @@ body {
   border: #1b2845 1px solid;
   margin-left: 5 px;
 }
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {.for-comps {
+
+@media screen and (max-width:320px){
+  .for-comps {
     display: none;
   }
   .latest {
@@ -486,10 +487,11 @@ body {
     transition: all 0.3s linear;
     text-decoration: none;
   }
-   }
+}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 400px) {.for-comps {
+
+@media screen and (min-width:321px) and (max-width:768px){
+  .for-comps {
     display: none;
   }
   .latest {
@@ -559,79 +561,5 @@ body {
     transition: all 0.3s linear;
     text-decoration: none;
   }
-   }
+}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {.for-comps {
-    display: none;
-  }
-  .latest {
-    display: contents;
-  }
-  body {
-    background-image: linear-gradient(#3494e6, #ec6ead);
-    font-size: small;
-  }
-  .tr p {
-    font-size: small;
-  }
-  .mi {
-    width: 150px;
-    height: 100px;
-  }
-  .mi:hover {
-    -webkit-transform: scale(1.19);
-    transform: scale(1.19);
-  }
-  .topreleases {
-    font-size: 15px;
-    font-weight: 900;
-    background-image: brown;
-    color: rgb(255, 255, 255);
-  }
-  .most-famous {
-    font-size: 15px;
-    font-weight: 900;
-    background-image: brown;
-    color: rgb(255, 255, 255);
-    stroke: 2px black;
-  }
-  .name1 {
-    background-image: brown;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-  }
-  .name {
-    font-size: 20px;
-    font-weight: 900;
-    color: #fff;
-    text-decoration: none;
-  }
-  .icons {
-    height: 29px;
-    width: 29px;
-
-    text-align: center;
-    margin: 5px;
-    margin-top: 0px;
-    line-height: 80px;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
-  }
-
-  .icons:hover {
-    -webkit-transform: scale(1.19);
-    transform: scale(1.19);
-  }
-
-  .icons {
-    margin-top: 5;
-
-    transition: all 0.3s linear;
-    text-decoration: none;
-  }
-   }
-
-/* Large devices (laptops/desktops, 992px and up) */
