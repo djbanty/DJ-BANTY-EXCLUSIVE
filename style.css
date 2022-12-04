@@ -341,6 +341,9 @@ body {
     font-size: 35px;
     margin-top: px;
   }
+  .dj{
+    display: none;
+  }
 }
 .fl td {
   padding: 7px 2px;
